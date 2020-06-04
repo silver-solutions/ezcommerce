@@ -76,7 +76,7 @@ return [
     Siso\Bundle\ComparisonBundle\SisoComparisonBundle::class => ['all' => true],
     Siso\Bundle\PaymentBundle\SisoPaymentBundle::class => ['all' => true],
 //    Siso\Bundle\PaypalPaymentBundle\SisoPaypalPaymentBundle::class => ['all' => true],
-    Kaliop\eZMigrationBundle\EzMigrationBundle::class => ['all' => true],
+    Kaliop\eZMigrationBundle\eZMigrationBundle::class => ['all' => true],
     Siso\Bundle\PriceBundle\SisoPriceBundle::class => ['all' => true],
     Siso\Bundle\QuickOrderBundle\SisoQuickOrderBundle::class => ['all' => true],
     Siso\Bundle\ToolsBundle\SisoToolsBundle::class => ['all' => true],
@@ -102,4 +102,9 @@ return [
     FriendsOfBehat\SymfonyExtension\Bundle\FriendsOfBehatSymfonyExtensionBundle::class => ['test' => true, 'behat' => true],
     Hautelook\TemplatedUriBundle\HautelookTemplatedUriBundle::class => ['all' => true],
     Ibexa\Platform\Bundle\ElasticSearchEngine\PlatformElasticSearchEngineBundle::class => ['all' => true],
+//    JMS\SerializerBundle\JMSSerializerBundle::class => ['all' => true],
+//    EWZ\Bundle\RecaptchaBundle\EWZRecaptchaBundle::class => ['all' => true],
+//    Siso\Bundle\TelecashPaymentBundle\SisoTelecashPaymentBundle::class => ['all' => true],
+//    Siso\Bundle\OgonePaymentBundle\SisoOgonePaymentBundle::class => ['all' => true],
+//    Siso\Bundle\ProductSelectionTypeBundle\SisoProductSelectionTypeBundle::class => ['all' => true],
 ];
